@@ -16,6 +16,15 @@ a:hover {
     color: #B43757;
 }
 
+button {
+    padding: 8px 24px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+  }
+
 .footer-img {
     background-color: white;
     clip-path: circle(40%);
@@ -40,6 +49,39 @@ a:hover {
     gap: 16px;
 }
 
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #B43757;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtext {
+    font-size: 24px;
+    color: black;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+    gap: 10px;
+}
+
+.title-pic {
+    width: 400px;
+    height: auto;
+}
+
 .footer {
     background-color: #B43757;
 }
+
