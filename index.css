@@ -1,4 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}    
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #696969;
+}
+
+a:hover {
+    color: #B43757;
+}
+
+.footer-img {
+    background-color: white;
+    clip-path: circle(40%);
+
+}
+
 .logo {
     width: 70px;
     height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #696969;
+    display: flex;
+    gap: 16px;
+}
+
+.footer {
+    background-color: #B43757;
 }
