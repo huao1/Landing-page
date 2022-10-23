@@ -94,6 +94,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 50px;
 }
 
 .card {
@@ -115,6 +116,37 @@ button {
     margin: 0px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 300px;
+    padding: 0px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 500px;
+}
+
 .footer {
-    background-color: #B43757;
+    display: flex;
+    background-color: #1f2937;
 }
